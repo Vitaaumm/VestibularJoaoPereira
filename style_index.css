@@ -1,0 +1,40 @@
+@font-face {
+    font-family: PSB;
+    src: url(Fonts/ProductSans-Bold.ttf);
+  }
+
+@font-face {
+    font-family: PSBI;
+    src: url(Fonts/ProductSans-BoldItalic.ttf);
+  }
+
+@font-face {
+    font-family: PSM;
+    src: url(fonts/ProductSans-Medium.ttf);
+  }
+
+@font-face {
+    font-family: PSMI;
+    src: url(fonts/ProductSans-MediumItalic.ttf);
+  }
+
+.navbar .navbar-brand{
+    font-family: PSB;
+    color: white;
+    padding: 0px;
+}
+
+.card text-black {
+    border: 0;
+}
+
+h1 {
+    font-family: PSM;
+    background: linear-gradient(#8C52FF, #FE3A43);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p {
+    font-family: PSM;
+}
