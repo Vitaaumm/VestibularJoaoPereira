@@ -24,17 +24,36 @@
     padding: 0px;
 }
 
-.card text-black {
-    border: 0;
-}
 
 h1 {
     font-family: PSM;
     background: linear-gradient(#8C52FF, #FE3A43);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin: 1em;
+    padding: 0.0em;
+    border: 0;
+    font-size: 75px;
 }
 
 p {
     font-family: PSM;
+    margin: 1em;
+    padding: 0.0em;
+    border: 0;
+    font-size: 20px;
+}
+
+.button-hover {
+    position: relative;
+    min-width: 300px;
+    margin: 9em;
+    padding: 0.3em;
+    background-color: #FE3A43;
+    border: 0;
+    border-radius: 55px;
+    color: white;
+    font-family: PSB;
+    font-size: 25px;
+    margin-top: 0px;
 }
