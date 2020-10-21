@@ -33,27 +33,52 @@ h1 {
     margin: 1em;
     padding: 0.0em;
     border: 0;
-    font-size: 75px;
+    font-size: 6vw;
+}
+
+h5 {
+  font-family: PSM;
+}
+
+h6 {
+  font-family: PSM;
+}
+
+a {
+  font-family: PSM;
 }
 
 p {
+  font-family: PSM;
+}
+
+.card-text {
     font-family: PSM;
     margin: 1em;
     padding: 0.0em;
     border: 0;
     font-size: 20px;
+    font-size: 1.7vw;
 }
 
 .button-hover {
     position: relative;
-    min-width: 300px;
-    margin: 9em;
-    padding: 0.3em;
+    min-width: 30vw;
+    margin: 9vw;
+    padding: 0.3vw;
     background-color: #FE3A43;
     border: 0;
-    border-radius: 55px;
+    border-radius: 55vw;
     color: white;
     font-family: PSB;
-    font-size: 25px;
-    margin-top: 0px;
+    font-size: 1.7vw;
+    margin-top: 0vw;
+}
+
+.text-muted{
+  font-family: PSM;
+}
+
+.blockquote-footer {
+  font-family: PSM;
 }
