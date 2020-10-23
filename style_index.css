@@ -42,6 +42,7 @@ h5 {
 
 h6 {
   font-family: PSM;
+  color: aliceblue;
 }
 
 a {
@@ -51,6 +52,31 @@ a {
 p {
   font-family: PSM;
 }
+a:link{
+  text-decoration:none;
+  color:white;
+  }
+  
+  a:visited{
+  text-decoration:none;
+  color:white;
+  }
+  
+  a:hover{
+  text-decoration:none;
+  color:pink;
+  }
+  
+  a:active{
+  text-decoration:none;
+  color:white;
+  }
+
+
+ a navbar-brand{
+   color: aqua;
+ }
+
 
 .card-text {
     font-family: PSM;
@@ -83,3 +109,19 @@ p {
   font-family: PSM;
 }
 
+label {
+  font-family: PSM;
+}
+
+::placeholder {
+  font-family: PSM;
+}
+
+option {
+  font-family: PSM;
+}
+
+#inputState {
+  font-family: PSM;
+
+}
