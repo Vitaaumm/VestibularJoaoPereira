@@ -73,10 +73,6 @@ a:link{
   }
 
 
- a navbar-brand{
-   color: aqua;
- }
-
 
 .card-text {
     font-family: PSM;
@@ -123,5 +119,10 @@ option {
 
 #inputState {
   font-family: PSM;
+
+}
+
+hr{
+  background-color: white;
 
 }
