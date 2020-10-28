@@ -1,0 +1,113 @@
+@font-face {
+  font-family: PSB;
+  src: url(Fonts/ProductSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: PSBI;
+  src: url(Fonts/ProductSans-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family: PSM;
+  src: url(fonts/ProductSans-Medium.ttf);
+}
+
+@font-face {
+  font-family: PSMI;
+  src: url(fonts/ProductSans-MediumItalic.ttf);
+}
+
+#wrapper {
+    overflow-x: hidden;
+    
+ }
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+  
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+  background-color:#F70053;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+  background-color:#F70053;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+  
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+  .row {
+    padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+  }
+  
+
+  h1 {
+  font-family: PSM;
+  color: #F70053;
+  font-size: 4vw;
+  }
+
+  h5 {
+    font-family: PSM;
+    }
+
+  p{
+    font-family: PSM;
+    font-size: 25px;
+  }
+
+  a {
+    font-family: PSM;
+    color: white;
+    font-size: 18px;
+  }
+
+  .card-text {
+    font-family: PSM;
+    margin: 1em;
+    padding: 0.0em;
+    border: 0;
+    font-size: 20px;
+    font-size: 1.7vw;
+}
+  .card {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+  }
+  .btn {
+    background-color: #F70053;
+    border-color: #F70053;
+  }
+
+}
