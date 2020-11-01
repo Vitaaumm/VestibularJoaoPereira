@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matérias / Portal</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <link rel="icon" type="imagem/png" href="Images/logos/logo_icon.png" />
+
+  <link href="style_portal.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="d-flex" id="wrapper">
+
+    <!-- Barra lateral -->
+    <div class="border-0" style="background-color:#15F187;" id="sidebar-wrapper">
+      <div class="sidebar-heading"><a href="#"><img src="Images/logos/aluno_logo.png" width="190px"></a></div>
+      <div class="list-group list-group-flush">
+        <hr>
+
+        <a href="portal_aluno.html" class="list-group-item list-group-item-action"
+          style="background-color:#15F187; color:black; border-color:#15F187;">&nbsp&nbsp&nbsp<svg width="1.3em"
+            height="1.3em" viewBox="0 0 16 16" class="bi bi-lightning" fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09zM4.157 8.5H7a.5.5 0 0 1 .478.647L6.11 13.59l5.732-6.09H9a.5.5 0 0 1-.478-.647L9.89 2.41 4.157 8.5z" />
+          </svg>&nbsp&nbspVisão geral</a>
+
+        <a href="portal_atividades.html" class="list-group-item list-group-item-action"
+          style="background-color:#15F187; color:black; border-color:#15F187;">&nbsp&nbsp&nbsp<svg width="1.3em"
+            height="1.3em" viewBox="0 0 16 16" class="bi bi-file-earmark-medical" fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M4 0h5.5v1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5h1V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2z" />
+            <path d="M9.5 3V0L14 4.5h-3A1.5 1.5 0 0 1 9.5 3z" />
+            <path fill-rule="evenodd"
+              d="M7 5a.5.5 0 0 1 .5.5v.634l.549-.317a.5.5 0 1 1 .5.866L8 7l.549.317a.5.5 0 1 1-.5.866L7.5 7.866V8.5a.5.5 0 0 1-1 0v-.634l-.549.317a.5.5 0 1 1-.5-.866L6 7l-.549-.317a.5.5 0 0 1 .5-.866l.549.317V5.5A.5.5 0 0 1 7 5zm-2 5.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
+          </svg>&nbsp&nbspAtividades</a>
+
+        <a href="portal_trabalhos.html" class="list-group-item list-group-item-action"
+          style="background-color:#15F187; color: black; border-color:#15F187;">&nbsp&nbsp&nbsp<svg width="1.3em"
+            height="1.3em" viewBox="0 0 16 16" class="bi bi-file-check" fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M4 0h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2zm0 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H4z" />
+            <path fill-rule="evenodd"
+              d="M10.854 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 8.793l2.646-2.647a.5.5 0 0 1 .708 0z" />
+          </svg>&nbsp&nbspTrabalhos</a>
+
+        <a href="portal_materias.html" class="list-group-item list-group-item-action"
+          style="background-color:#15F187; color: black; border-color:#15F187;">&nbsp&nbsp&nbsp<svg width="1.3em"
+            height="1.3em" viewBox="0 0 16 16" class="bi bi-clipboard-data" fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z" />
+            <path fill-rule="evenodd"
+              d="M9.5 1h-3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z" />
+            <path
+              d="M4 11a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0v-1zm6-4a1 1 0 1 1 2 0v5a1 1 0 1 1-2 0V7zM7 9a1 1 0 0 1 2 0v3a1 1 0 1 1-2 0V9z" />
+          </svg>&nbsp&nbspMatérias</a>
+
+        <a href="portal_novidades.html" class="list-group-item list-group-item-action"
+          style="background-color:#15F187; color: black; border-color:#15F187;">&nbsp&nbsp&nbsp<svg width="1.3em"
+            height="1.3em" viewBox="0 0 16 16" class="bi bi-receipt-cutoff" fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M1.92.506a.5.5 0 0 1 .434.14L3 1.293l.646-.647a.5.5 0 0 1 .708 0L5 1.293l.646-.647a.5.5 0 0 1 .708 0L7 1.293l.646-.647a.5.5 0 0 1 .708 0L9 1.293l.646-.647a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .801.13l.5 1A.5.5 0 0 1 15 2v13h-1V2.118l-.137-.274-.51.51a.5.5 0 0 1-.707 0L12 1.707l-.646.647a.5.5 0 0 1-.708 0L10 1.707l-.646.647a.5.5 0 0 1-.708 0L8 1.707l-.646.647a.5.5 0 0 1-.708 0L6 1.707l-.646.647a.5.5 0 0 1-.708 0L4 1.707l-.646.647a.5.5 0 0 1-.708 0l-.509-.51L2 2.118V15H1V2a.5.5 0 0 1 .053-.224l.5-1a.5.5 0 0 1 .367-.27zM0 15.5a.5.5 0 0 1 .5-.5h15a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z" />
+            <path fill-rule="evenodd"
+              d="M3 4.5a.5.5 0 0 1 .5-.5h6a.5.5 0 1 1 0 1h-6a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h6a.5.5 0 1 1 0 1h-6a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h6a.5.5 0 1 1 0 1h-6a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5zm8-8a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5z" />
+          </svg>&nbsp&nbspNovidades</a>
+      </div>
+      <hr>
+      <a href="#" class="list-group-item list-group-item-action"
+        style="background-color:#15F187; color: black; border-color:#15F187;">&nbsp&nbsp&nbsp<svg width="1.3em"
+          height="1.3em" viewBox="0 0 16 16" class="bi bi-exclamation-octagon" fill="currentColor"
+          xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd"
+            d="M4.54.146A.5.5 0 0 1 4.893 0h6.214a.5.5 0 0 1 .353.146l4.394 4.394a.5.5 0 0 1 .146.353v6.214a.5.5 0 0 1-.146.353l-4.394 4.394a.5.5 0 0 1-.353.146H4.893a.5.5 0 0 1-.353-.146L.146 11.46A.5.5 0 0 1 0 11.107V4.893a.5.5 0 0 1 .146-.353L4.54.146zM5.1 1L1 5.1v5.8L5.1 15h5.8l4.1-4.1V5.1L10.9 1H5.1z" />
+          <path
+            d="M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 4.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 4.995z" />
+        </svg>&nbsp&nbspCovid-19</a>
+
+      <a href="#" class="list-group-item list-group-item-action"
+        style="background-color:#15F187; color: black; border-color:#15F187;">&nbsp&nbsp&nbsp<svg width="1.3em"
+          height="1.3em" viewBox="0 0 16 16" class="bi bi-calendar4" fill="currentColor"
+          xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd"
+            d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 2a1 1 0 0 0-1 1v1h14V3a1 1 0 0 0-1-1H2zm13 3H1v9a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V5z" />
+        </svg>&nbsp&nbspCronograma </a>
+
+      <a href="#" class="list-group-item list-group-item-action"
+        style="background-color:#15F187; color: black; border-color:#15F187;">&nbsp&nbsp&nbsp<svg width="1.3em"
+          height="1.3em" viewBox="0 0 16 16" class="bi bi-chat-square-text" fill="currentColor"
+          xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd"
+            d="M14 1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h2.5a2 2 0 0 1 1.6.8L8 14.333 9.9 11.8a2 2 0 0 1 1.6-.8H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+          <path fill-rule="evenodd"
+            d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
+        </svg>&nbsp&nbspSuporte</a>
+      <hr>
+      <a href="login_portal.html" class="list-group-item list-group-item-action"
+        style="background-color:#15F187; color: black; border-color:#15F187;">&nbsp&nbsp&nbsp<svg width="1.3em"
+          height="1.3em" viewBox="0 0 16 16" class="bi bi-arrow-down-left-square" fill="currentColor"
+          xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd"
+            d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+          <path fill-rule="evenodd"
+            d="M10.828 5.172a.5.5 0 0 0-.707 0L6.025 9.268V6.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H9.5a.5.5 0 0 0 0-1H6.732l4.096-4.096a.5.5 0 0 0 0-.707z" />
+        </svg>&nbsp&nbspSair</a>
+      <hr>
+      <h6>/Desenvolvido por AntaresDev</h6>
+      <h6>/Pré-vestibular João Pereira</h6>
+      <h6>/Versão 2.0P</h6>
+      <hr>
+    </div>
+
+    <div id="page-content-wrapper" style="background-color:black;">
+
+      <nav class="navbar navbar-expand-lg border-0" style="background-color:#15F187;">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="navbar" role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Fale com seu professor
+              </a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                configurações
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" style="background-color: #202020;"
+                aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Seu perfil</a>
+                <a class="dropdown-item" href="#">preferências</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="login_portal.html">sair</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!--conteudo da pagina-->
+
+      <br>
+      <div class="row">
+        <div class="col-sm-12">
+          <h5 class="card-header border-0" style="background-color:#15F187;">Sala 7881</h5>
+          <div class="card border-0">
+            <div class="card-body">
+              <h2>Matérias</h2>
+              <table class="table table-hover" style="background-color: #202020; color: white;">
+                <thead>
+                  <tr>
+                    <th scope="col" style="background-color:#15F187; color: black; border-color: #15F187;">/Matérias
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row" style="border-color: #15F187;">/Gramática</th>
+                  </tr>
+                  <tr>
+                    <th scope="row" style="border-color: #15F187;">/Matemática</th>
+                  </tr>
+                  <tr>
+                    <th scope="row" style="border-color: #15F187;">/Física</th>
+                  </tr>
+                  <tr>
+                    <th scope="row" style="border-color: #15F187;">/Biologia</th>
+                  </tr>
+                  <tr>
+                  </tr>
+                  <tr>
+                    <th scope="row" style="border-color: #15F187;">/Geografia</th>
+                  </tr>
+                  <tr>
+                    <th scope="row" style="border-color: #15F187;">/Inglês</th>
+                  </tr>
+                  <tr>
+                    <th scope="row" style="border-color: #15F187;">/Redação</th>
+                  </tr>
+                  <tr>
+                    <th scope="row" style="border-color: #15F187;">/História</th>
+                  </tr>
+                  <tr>
+                    <th scope="row" style="border-color: #15F187;">/Ed. Física</th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <!--bootstrap-->
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+          crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+          integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+          crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+          integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+          crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -36,12 +36,10 @@
 #sidebar-wrapper .sidebar-heading {
   padding: 0.875rem 1.25rem;
   font-size: 1.2rem;
-  background-color:#F70053;
 }
 
 #sidebar-wrapper .list-group {
   width: 15rem;
-  background-color:#F70053;
 }
 
 #page-content-wrapper {
@@ -67,47 +65,122 @@
     margin-left: -15rem;
   }
   .row {
-    padding: 0.875rem 1.25rem;
+  padding: 0.875rem 1.25rem;
   font-size: 1.2rem;
   }
   
 
-  h1 {
-  font-family: PSM;
-  color: #F70053;
+  h2 {
+  font-family: PSB;
+  color: #15F187;
   font-size: 4vw;
+  text-align: center;
   }
 
   h5 {
-    font-family: PSM;
+    font-family: PSB;
     }
 
   p{
+    font-family: PSB;
+  }
+
+  th {
+    font-family: PSB;
+    color: #15F187;
+    font-size: 22px;
+  }
+
+  td {
+    font-family: PSB;
+    font-size: 22px;
+  }
+
+  h2{
+    padding: 20px;
+    text-align: center;
+    font-family: PSB;
+    font-size: 45px;
+  }
+
+  h6 {
     font-family: PSM;
-    font-size: 25px;
+    text-align: center;
+    color: black;
   }
 
   a {
-    font-family: PSM;
+    font-family: PSB;
     color: white;
-    font-size: 18px;
+    font-size: 22px;
+    text-decoration:none;
+    color:black;
   }
 
+
   .card-text {
-    font-family: PSM;
+    font-family: PSB;
     margin: 1em;
     padding: 0.0em;
     border: 0;
     font-size: 20px;
     font-size: 1.7vw;
 }
-  .card {
+
+  .noticias {
     padding: 0.875rem 1.25rem;
-    font-size: 1.2rem;
+  font-size: 1.2rem;
+    
   }
+
+  .card-body{
+    
+    background-color: #202020;
+    color: white;
+
+
+  }
+
   .btn {
-    background-color: #F70053;
-    border-color: #F70053;
+    color: white;
+    background-color: #22AF6B;
+    border-color: #22AF6B;
+    font-size: 20px;
   }
+
+  .btn:hover {
+    color: white;
+    background-color:#1E6241;
+    border-color: #1E6241;
+    font-size: 20px;
+  }
+
+  .nav-link:active {
+    text-decoration:none;
+    color:black;
+  }
+
+  a:hover{
+    text-decoration:none;
+    color:#1D4D36;
+    }
+
+  .dropdown-item {
+    color:white;
+}
+
+.dropdown-item:hover{
+  text-decoration:none;
+  color:#15F187;
+  background-color: #202020;
+  }
+
+  hr {
+    width: 195px;
+    border-color: #1D4D36;
+
+  }
+
+  
 
 }
