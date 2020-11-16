@@ -181,6 +181,42 @@
 
   }
 
+  label{
+    font-family: PSM;
+    color: #15F187;
+    
+  }
+
+  option{
+    font-family: PSM;
+    background-color: #303030;
+    color: #15F187;
+    
+  }
+
+  #detalhes{
+    font-family: PSM;
+    background-color: #303030;
+    border-color: #15F187;
+    color: #15F187;
+    
+  }
+
+  .form-control{
+    background-color: #303030;
+    border-color: #15F187;
+    color: #15F187;
+    font-family: PSM;
+    
+  }
+  .form-control:hover{
+    background-color: #303030;
+    border-color: #15F187;
+    color: #15F187;
+    font-family: PSM;
   
+  }
+
+
 
 }

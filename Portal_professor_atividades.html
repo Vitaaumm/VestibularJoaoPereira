@@ -2,29 +2,33 @@
 <html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Matérias / Portal</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
   <link rel="icon" type="imagem/png" href="Images/logos/logo_icon.png" />
 
+  <title>Professor / Atividades</title>
+
   <link href="style_portal.css" rel="stylesheet">
 
 </head>
 
 <body>
+
   <div class="d-flex" id="wrapper">
 
     <!-- Barra lateral -->
+
     <div class="border-0" style="background-color:#15F187;" id="sidebar-wrapper">
-      <div class="sidebar-heading"><a href="#"><img src="Images/logos/aluno_logo.png" width="190px"></a></div>
+      <div class="sidebar-heading"><a href="#"><img src="Images/logos/professor_logo.png" width="211px"></a></div>
       <div class="list-group list-group-flush">
         <hr>
 
-        <a href="portal_aluno.html" class="list-group-item list-group-item-action"
+        <a href="portal_professor.html" class="list-group-item list-group-item-action"
           style="background-color:#15F187; color:black; border-color:#15F187;">&nbsp&nbsp&nbsp<svg width="1.3em"
             height="1.3em" viewBox="0 0 16 16" class="bi bi-lightning" fill="currentColor"
             xmlns="http://www.w3.org/2000/svg">
@@ -32,7 +36,7 @@
               d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09zM4.157 8.5H7a.5.5 0 0 1 .478.647L6.11 13.59l5.732-6.09H9a.5.5 0 0 1-.478-.647L9.89 2.41 4.157 8.5z" />
           </svg>&nbsp&nbspVisão geral</a>
 
-        <a href="portal_atividades.html" class="list-group-item list-group-item-action"
+        <a href="Portal_professor_atividades.html" class="list-group-item list-group-item-action"
           style="background-color:#15F187; color:black; border-color:#15F187;">&nbsp&nbsp&nbsp<svg width="1.3em"
             height="1.3em" viewBox="0 0 16 16" class="bi bi-file-earmark-medical" fill="currentColor"
             xmlns="http://www.w3.org/2000/svg">
@@ -43,7 +47,7 @@
               d="M7 5a.5.5 0 0 1 .5.5v.634l.549-.317a.5.5 0 1 1 .5.866L8 7l.549.317a.5.5 0 1 1-.5.866L7.5 7.866V8.5a.5.5 0 0 1-1 0v-.634l-.549.317a.5.5 0 1 1-.5-.866L6 7l-.549-.317a.5.5 0 0 1 .5-.866l.549.317V5.5A.5.5 0 0 1 7 5zm-2 5.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
           </svg>&nbsp&nbspAtividades</a>
 
-        <a href="portal_trabalhos.html" class="list-group-item list-group-item-action"
+        <a href="portal_professor_trabalho.html" class="list-group-item list-group-item-action"
           style="background-color:#15F187; color: black; border-color:#15F187;">&nbsp&nbsp&nbsp<svg width="1.3em"
             height="1.3em" viewBox="0 0 16 16" class="bi bi-file-check" fill="currentColor"
             xmlns="http://www.w3.org/2000/svg">
@@ -53,7 +57,7 @@
               d="M10.854 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 8.793l2.646-2.647a.5.5 0 0 1 .708 0z" />
           </svg>&nbsp&nbspTrabalhos</a>
 
-        <a href="portal_materias.html" class="list-group-item list-group-item-action"
+        <a href="oops.html" class="list-group-item list-group-item-action"
           style="background-color:#15F187; color: black; border-color:#15F187;">&nbsp&nbsp&nbsp<svg width="1.3em"
             height="1.3em" viewBox="0 0 16 16" class="bi bi-clipboard-data" fill="currentColor"
             xmlns="http://www.w3.org/2000/svg">
@@ -63,9 +67,9 @@
               d="M9.5 1h-3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z" />
             <path
               d="M4 11a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0v-1zm6-4a1 1 0 1 1 2 0v5a1 1 0 1 1-2 0V7zM7 9a1 1 0 0 1 2 0v3a1 1 0 1 1-2 0V9z" />
-          </svg>&nbsp&nbspMatérias</a>
+          </svg>&nbsp&nbspAlunos</a>
 
-        <a href="portal_novidades.html" class="list-group-item list-group-item-action"
+        <a href="oops.html" class="list-group-item list-group-item-action"
           style="background-color:#15F187; color: black; border-color:#15F187;">&nbsp&nbsp&nbsp<svg width="1.3em"
             height="1.3em" viewBox="0 0 16 16" class="bi bi-receipt-cutoff" fill="currentColor"
             xmlns="http://www.w3.org/2000/svg">
@@ -73,7 +77,7 @@
               d="M1.92.506a.5.5 0 0 1 .434.14L3 1.293l.646-.647a.5.5 0 0 1 .708 0L5 1.293l.646-.647a.5.5 0 0 1 .708 0L7 1.293l.646-.647a.5.5 0 0 1 .708 0L9 1.293l.646-.647a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .801.13l.5 1A.5.5 0 0 1 15 2v13h-1V2.118l-.137-.274-.51.51a.5.5 0 0 1-.707 0L12 1.707l-.646.647a.5.5 0 0 1-.708 0L10 1.707l-.646.647a.5.5 0 0 1-.708 0L8 1.707l-.646.647a.5.5 0 0 1-.708 0L6 1.707l-.646.647a.5.5 0 0 1-.708 0L4 1.707l-.646.647a.5.5 0 0 1-.708 0l-.509-.51L2 2.118V15H1V2a.5.5 0 0 1 .053-.224l.5-1a.5.5 0 0 1 .367-.27zM0 15.5a.5.5 0 0 1 .5-.5h15a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z" />
             <path fill-rule="evenodd"
               d="M3 4.5a.5.5 0 0 1 .5-.5h6a.5.5 0 1 1 0 1h-6a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h6a.5.5 0 1 1 0 1h-6a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h6a.5.5 0 1 1 0 1h-6a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5zm8-8a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5z" />
-          </svg>&nbsp&nbspNovidades</a>
+          </svg>&nbsp&nbspMensagens</a>
       </div>
       <hr>
       <a href="oops.html" class="list-group-item list-group-item-action"
@@ -120,6 +124,8 @@
       <hr>
     </div>
 
+    <!-- navbar topo -->
+
     <div id="page-content-wrapper" style="background-color:black;">
 
       <nav class="navbar navbar-expand-lg border-0" style="background-color:#15F187;">
@@ -153,60 +159,78 @@
         </div>
       </nav>
 
-      <!--conteudo da pagina-->
+      <!--formulário-->
 
       <br>
       <div class="row">
         <div class="col-sm-12">
-          <h5 class="card-header border-0" style="background-color:#15F187;">Sala 7881</h5>
+          <h5 class="card-header border-0" style="background-color:#15F187;">Professor / Atividades</h5>
           <div class="card border-0">
-            <div class="card-body">
-              <h2>Matérias</h2>
+            <div class="card-body ">
               <table class="table table-hover" style="background-color: #202020; color: white;">
-                <thead>
-                  <tr>
-                    <th scope="col" style="background-color:#15F187; color: black; border-color: #15F187;">/Matérias
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row" style="border-color: #15F187;">/Gramática</th>
-                  </tr>
-                  <tr>
-                    <th scope="row" style="border-color: #15F187;">/Matemática</th>
-                  </tr>
-                  <tr>
-                    <th scope="row" style="border-color: #15F187;">/Física</th>
-                  </tr>
-                  <tr>
-                    <th scope="row" style="border-color: #15F187;">/Biologia</th>
-                  </tr>
-                  <tr>
-                  </tr>
-                  <tr>
-                    <th scope="row" style="border-color: #15F187;">/Geografia</th>
-                  </tr>
-                  <tr>
-                    <th scope="row" style="border-color: #15F187;">/Inglês</th>
-                  </tr>
-                  <tr>
-                    <th scope="row" style="border-color: #15F187;">/Redação</th>
-                  </tr>
-                  <tr>
-                    <th scope="row" style="border-color: #15F187;">/História</th>
-                  </tr>
-                  <tr>
-                    <th scope="row" style="border-color: #15F187;">/Ed. Física</th>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
+                <h2>Envie atividades</h2>
+                <div class="container">
+                    <form>
+                      <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="atividade">Título da atividade</label>
+                          <input type="atividade" class="form-control" id="atividade">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="turma">Turma</label>
+                            <select id="turma" class="form-control">
+                              <option selected>Escolha...</option>
+                                <option value="AC">7881 </option>
+                                <option value="AL">7871 </option>
+                                <option value="AP">7861 </option>
+                                <option value="AM">7851 </option>
+                                <option value="BA">7841 </option>
+                                <option value="CE">7831 </option>
+                            </select>
+                            </select>
+                          </div>
+                          <div class="form-group col-md-6">
+                            <label for="Matéria">Matéria</label>
+                            <select id="Matéria" class="form-control">
+                              <option selected>Escolha...</option>
+                                <option value="AC">Gramática</option>
+                                <option value="AL">Matemática</option>
+                                <option value="AP">Física</option>
+                                <option value="AM">Biologia</option>
+                                <option value="BA">Geografia</option>
+                                <option value="CE">Inglês</option>
+                            </select>
+                            </select>
+                          </div>
+                          <div class="form-group col-md-6">
+                            <label for="valor">Valor (pontos)</label>
+                            <select id="valor" class="form-control">
+                              <option selected>Escolha...</option>
+                                <option value="AC">0 ponto(s)</option>
+                                <option value="AL">1 ponto(s)</option>
+                                <option value="AP">2 ponto(s)</option>
+                                <option value="AM">3 ponto(s)</option>
+                                <option value="BA">4 ponto(s)</option>
+                                <option value="CE">5 ponto(s)</option>
+                            </select>
+                            </select>
+                          </div>
+                          <label for="valor">Descrições e detalhes...</label>
+                          <textarea id="detalhes" name="detalhes"
+                          rows="5" cols="150"></textarea>
+                          <form>
+                            <div class="form-group">
+                              <label for="exampleFormControlFile1">Adicionar arquivos (slides, imagens, vídeos, links e referências)</label>
+                              <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                            </div>
+                          </form>
+                       </form>
+                    </div>
+                    <a href="portal_professor.html" class="btn">Enviar</a>
+               
 
+ 
         <!--bootstrap-->
-
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
           integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
           crossorigin="anonymous"></script>
@@ -216,6 +240,8 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
           integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
           crossorigin="anonymous"></script>
+
+
 
 </body>
 
